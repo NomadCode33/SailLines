@@ -1,4 +1,4 @@
-# Ship race: Spain to Puerto Rico (1770)
+# Ship Race: Spain to Puerto Rico (1770)
 A stop-motion animation depicts two ships, El Rey and El Colon, racing across three different routes to determine which journey is the fastest.
 
 <img src="./ShipRace Spain to Puerto Rico, 1770 720p.gif" img alt = "ShipRace GIF"/>
