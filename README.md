@@ -7,8 +7,6 @@ A stop-motion animation depicts two ships, El Rey and El Colon, racing across th
 
 **Tech used:** ArcGIS Pro
 
-**Improved with Great Flow:**
-
 The file opens with the interpolated ship paths active, showing each frame of the ship moving along its path. To animate the ships properly, several steps were necessary. First, I defined a per-feature filter using a range. A range filter connects to any numeric field and interactively filters features in the map. This filter was connected to the Hours_Travelled field, indicating how long it has been since the ship left port. By stepping through individual feature locations and synchronizing them with the exported video frames, the illusion of a ship moving across the ocean was created.
 
 In the Bookmarks, I navigated to the Race Across Atlantic section and selected the Starting Line Bookmark. On the Logged Positions layer in the Contents pane, I accessed Properties to add a range filter. For the Start Field, I chose HOURS_TRAVELLED. I repeated this process for the Interpolated Positions layer. After completing the setup, a slider appeared on the right side of the view and a Range tab appeared on the ribbon. To activate the filter, I clicked the Range Disabled button. In the Range tab, under the Current Range group, I set the Max to 24 and Span to 0. Since the span was 0, the minimum value updated to 24 to match the maximum value. This minimum value represented 24 hours into the journey, or one day at sea. The span value of 0 meant one slice of data; a span of 10, for example, would show 10 hours of content and multiple ships. In the Step group, I clicked the Use Range Span button and set the Step Interval to 2.
