@@ -7,7 +7,10 @@ A stop-motion animation depicts two ships, El Rey and El Colon, racing across th
 
 **Tech used:** ArcGIS Pro
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+The file opens up with the interpolated ship paths being active showing each still of the ship moving along its path, to get the ships to animate properly several steps had to be made. The first step is defining a per-feature filter using range. A range filter connects to any numeric field and will interactively filter features in the map. The range filter will be connected to the Hours_Travelled field, which indicates how long it has been since the ship left port. By stepping through individual feature locations one at a time and synchronizing the steps with the exported video frames, you will create the illusion of a ship moving across the ocean. In Bookmarks, I went to the Race Across Atlantic Bookmarks section and selected the Starting Line Bookmark. On the Logged Positions layer in the Contents pane, I went on Properties to add range, for the Start Field I chose HOURS_TRAVELLED. I did the same exact process for the Interpolated Positions layer, adn after doing the whole process a slider appears on the right side of the view and a Range tab appears on the ribbon, however, the filter is not actively applied which I clicked the Range Disabled button to enable it. On the Range tab, in the Current Range group, I set the Max to 24 and Span to 0. Because the span is 0, the minimum value updates to 24 to match the maximum value. The minimum value means 24 hours into the journey, or after one day at sea. The span value of 0 means one slice of data. A span of 10, for example, would show 10 hours of content, and you would see multiple ships. Then in the Strp group, I clicked the Use Range SPan button and for the Step Interval inserted 2.
+
+
+
 
 ## Lessons Learned:
 
