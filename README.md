@@ -23,7 +23,7 @@ With the video looking great, I needed to add title text and an overlay image to
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+Throughout this project, I learned the importance of meticulous planning and attention to detail. Defining per-feature filters and synchronizing them with exported video frames taught me the value of precision in creating realistic animations. Handling a large volume of keyframes and ensuring smooth camera transitions highlighted the significance of methodical organization and iterative verification. Adding lead-in and lead-out sections, title text, and overlays emphasized the need to consider viewer engagement and comprehension. Overall, this project reinforced the importance of combining technical skills with effective organization to achieve successful results.
 
 ## Repositories
 **Profile:** [T3ch12et](https://github.com/T3ch12et)
